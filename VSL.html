@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Training Access - Watch Now!</title>
+    <style>
+        /* Basic Reset & Font */
+        body, h1, h2, p, a, div {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #f0f0f0; /* Light grey background */
+            color: #333;
+            line-height: 1.6;
+            padding: 20px; /* Add some padding around the content */
+        }
+
+        /* Container */
+        .container {
+            max-width: 900px; /* Slightly narrower container for this page */
+            margin: 30px auto;
+            background-color: #ffffff; /* White background for content */
+            padding: 25px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+            border-radius: 8px; /* Slightly rounded corners */
+            text-align: center; /* Center content */
+        }
+
+        /* Header */
+        .header {
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2em; /* Slightly smaller main headline than the landing page */
+            color: #222;
+            margin-bottom: 10px;
+            line-height: 1.3;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        /* Video Section */
+        .video-section {
+            margin-bottom: 30px;
+        }
+
+        /* Placeholder for the Training Video - Replace this div with your actual video embed code */
+        .video-placeholder {
+             background-color: #000;
+             color: #fff;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             width: 100%;
+             aspect-ratio: 16 / 9; /* Standard video aspect ratio */
+             text-align: center;
+             font-size: 1.5em;
+             border-radius: 5px;
+             position: relative;
+             overflow: hidden; /* Ensure embedded video stays within bounds */
+        }
+
+         /* Style for embedded video (adjust as needed) */
+         .video-section iframe,
+         .video-section video {
+             width: 100%;
+             height: 100%;
+             border: none;
+         }
+
+        .sound-on-message {
+            font-size: 0.9em;
+            color: #555;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        .cta-section p {
+            font-size: 1em;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        /* CTA Button (Similar style to the landing page) */
+        .cta-button {
+            display: inline-block; /* Use inline-block for centering */
+            /* Updated to Green Gradient */
+            background: linear-gradient(180deg, #4CAF50 0%, #2E7D32 100%);
+            color: #fff; /* White text for contrast on green */
+            text-align: center;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.1s ease, box-shadow 0.1s ease;
+        }
+        .cta-button:hover {
+             /* Updated Hover to Green Gradient */
+            background: linear-gradient(180deg, #5cb860 0%, #388e3c 100%);
+            box-shadow: 6px 12px rgba(0,0,0,0.25);
+            transform: translateY(-2px);
+        }
+        .cta-button:active {
+            transform: translateY(0px);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+         /* Responsive Adjustments */
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+                margin: 15px;
+            }
+            .header h1 {
+                font-size: 1.6em;
+            }
+            .header p {
+                font-size: 1em;
+            }
+            .cta-button {
+                font-size: 1em;
+                padding: 12px 20px;
+            }
+        }
+
+        /* Added highlight style for consistency with landing page */
+        .highlight-green {
+            color: #28a745;
+            font-weight: inherit; /* Inherit font weight from parent h1 */
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>
+                How We Leverage <span class="highlight-green">AI for Enhanced Results & Tracking </span> to Help 30-50 Students (Class 5th-10th) Excel Academically Every Month - Guaranteed!
+            </h1>
+            <p>"Watch this video to discover the landing page secret..."</p>
+        </div>
+
+        <div class="video-section">
+            <div class="video-placeholder">
+                [Your Training Video Embed Here]
+            </div>
+            <div class="sound-on-message">
+                <span style="font-size: 1.2em;">🔊</span> MAKE SURE YOUR SOUND IS ON AND CLICK PLAY MAY TAKE UP TO 10 SECONDS TO LOAD
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <p>Click below to Secure Your Spot (Limited Availability)</p>
+            <p style="font-size:0.9em; margin-bottom: 25px;">Our complete course is available for a limited time only at a very special price</p>
+            <a href="YOUR_SALES_PAGE_OR_CHECKOUT_URL" class="cta-button">
+                YES! I Want To Upgrade My Tutoring business Now
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>
